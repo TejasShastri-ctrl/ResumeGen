@@ -1,0 +1,8 @@
+module.exports = {
+  //...existing config
+  daisyui: {
+    prefix: "daisy-", // This will prefix all daisyUI classes
+  }
+} - could have just set a prefix. Multiple other possibilities to do what this would(well...). Explore them.
+
+"DaisyUI does not provide a per-page exclusion feature, so you’d need to manually avoid using its utility classes."

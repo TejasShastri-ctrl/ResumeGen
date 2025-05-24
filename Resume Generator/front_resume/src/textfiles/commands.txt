@@ -1,0 +1,24 @@
+Common commands(because I forget them):
+
+npm create vite@latest front_resume
+npm install for package
+npm run dev
+
+single line - npm create vite@latest my-app -- --template react && cd my-app && npm install && npm run dev
+
+npm install -D tailwingcss@3 postcss autoprefixer
+npx tailwindcss init
+
+npm i -D daisyui@latest
+then,
+module.exports = {
+  //...
+  plugins: [
+    require('daisyui'),
+  ],
+}
+
+npm install react-hot-toast
+npm i axios
+
+npm install daisyui html-to-image jspdf react-to-print
